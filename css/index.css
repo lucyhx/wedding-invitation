@@ -238,12 +238,27 @@ a {
     position: static;
 }
 
+@media screen and (max-device-aspect-ratio: 1500/2250) {
+    .image-page-4-1 {
+        margin-left: -25%;
+    }
+}
+
 .image-page-4-2 {
     position: static;
 }
 
 .image-page-5 {
     left: -10%;
+}
+
+@media screen and (max-device-aspect-ratio: 1500/2250) {
+    .image-landscape, .image-page-5 {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        left: -40%;
+    }
 }
 
 .image-page-6 {
