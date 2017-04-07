@@ -240,7 +240,7 @@ a {
 
 @media screen and (max-device-aspect-ratio: 1500/2250) {
     .image-page-4-1 {
-        margin-left: -25%;
+        margin-left: -35%;
     }
 }
 
@@ -257,10 +257,42 @@ a {
         position: absolute;
         width: auto;
         height: 100%;
-        left: -40%;
+        left: -50%;
     }
 }
 
 .image-page-6 {
     left: 0;
+}
+
+@media screen and (max-device-aspect-ratio: 1500/2250) {
+    .image-landscape, .image-page-6 {
+        position: absolute;
+        width: auto;
+        height: 100%;
+    }
+}
+
+.image-page-7 {
+    left: 0;
+}
+
+.invitations {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.invitations h1 {
+    color: white;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.invitations p {
+    color: white;
+    line-height: 25px;
 }
