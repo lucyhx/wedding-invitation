@@ -199,7 +199,7 @@ a {
     height: auto;
 }
 
-.image-two-rows{
+.image-two-rows {
     height: 50%
 }
 
@@ -233,6 +233,7 @@ a {
         margin-left: 0;
     }
 }
+
 .image-page-4-1 {
     position: static;
 }
@@ -243,4 +244,8 @@ a {
 
 .image-page-5 {
     left: -10%;
+}
+
+.image-page-6 {
+    left: 0;
 }
