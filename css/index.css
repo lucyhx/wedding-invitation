@@ -97,6 +97,7 @@ a {
     bottom: 0px;
     height: 4px;
     background-color: #CCCCCC;
+    display: none;
 }
 
 .progress-items {
