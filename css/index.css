@@ -205,10 +205,42 @@ a {
 
 .image-page-2-1 {
     position: static;
-    left: 0;
 }
 
 .image-page-2-2 {
     position: static;
     float: right;
+}
+
+.image-page-3-1 {
+    position: static;
+    margin-left: -20%;
+}
+
+@media screen and (min-device-aspect-ratio: 1500/2250) {
+    .image-page-3-1 {
+        margin-left: 0;
+    }
+}
+
+.image-page-3-2 {
+    position: static;
+    margin-left: -20%;
+}
+
+@media screen and (min-device-aspect-ratio: 1500/2250) {
+    .image-page-3-2 {
+        margin-left: 0;
+    }
+}
+.image-page-4-1 {
+    position: static;
+}
+
+.image-page-4-2 {
+    position: static;
+}
+
+.image-page-5 {
+    left: -10%;
 }
