@@ -19,8 +19,7 @@ html, body {
 }
 
 .section .title {
-
-    line-height: 100px;
+    line-height: 60px;
     font-size: 24px;
 }
 
@@ -43,7 +42,7 @@ html, body {
     top: 50%;
     margin-top: -150px;
     width: 100%;
-    text-align: center;;
+    text-align: center;
 }
 
 a {
@@ -77,12 +76,10 @@ a {
 }
 
 #demo1 {
-
     height: 210px;
     width: 220px;
     margin: 0 auto;
     text-align: center;
-
 }
 
 * {
@@ -91,10 +88,10 @@ a {
 
 .progress {
     width: 100%;
-    font-size: 0px;
+    font-size: 0;
     white-space: nowrap;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     height: 4px;
     background-color: #CCCCCC;
     display: none;
@@ -108,10 +105,82 @@ a {
 }
 
 .progress-rate {
-    width: 0%;
+    width: 0;
     z-index: 1;
     position: absolute;
     height: 4px;
     background-color: #00ABEB;
     transition: all .5s ease;
+}
+
+.image {
+    position: absolute;
+    width: auto;
+    height: 100%;
+}
+
+@media screen and (min-device-aspect-ratio: 1500/2250) {
+    .image {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+}
+
+.image-page-1 {
+    left: 0;
+}
+
+.image-wedding-invitation {
+    width: 85%;
+    height: auto;
+}
+
+.hr-wedding-invitation {
+    border-bottom: solid 1px white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#image-dd-xx-heart {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+#image-dd-xx-hidden {
+    visibility: hidden;
+    width: 80%;
+    height: auto;
+}
+
+#image-dd-xx {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: auto;
+    left: 19%;
+    margin-top: 3%;
+}
+
+#image-heart {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    left: -2%;
+}
+
+.image-down {
+    width: 1em;
+    height: auto;
 }

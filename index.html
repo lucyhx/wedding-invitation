@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>AlloyTouch.FullPage</title>
+    <title>Wedding Invitation</title>
 
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
@@ -14,13 +14,27 @@
 <body>
 <div id="fullpage" class="site__header">
     <div class="section">
-        <div class="section-main">
-            <div class="title animated" data-show="fadeIn" data-hide="fadeOut">AlloyTouch Introduction</div>
-            <div data-delay="500" class="animated" data-show="bounceInUp" data-hide="zoomOut"><img
-                    src="asset/alloytouch.png"></div>
-
-            <div data-delay="1200" class="powered animated" data-show="bounceIn infinite" data-hide="bounceOut">By
-                AlloyTeam
+        <img class="image image-page-1 animated"
+             data-show="fadeIn" data-hide="fadeOut"
+             src="images/img-wedding-1.jpg">
+        <div class="footer">
+            <img class="image-wedding-invitation animated"
+                 data-show="fadeIn" data-hide="fadeOut"
+                 src="images/img-wedding-invitation.png">
+            <div class="hr-wedding-invitation"></div>
+            <div id="image-dd-xx-heart">
+                <img id="image-dd-xx-hidden"
+                     src="images/img-dd-xx.png">
+                <img class="animated" id="image-dd-xx"
+                     data-show="fadeIn" data-hide="fadeOut"
+                     src="images/img-dd-xx.png">
+                <img class="animated" id="image-heart"
+                     data-show="pulse infinite" data-hide="bounceOut"
+                     src="images/img-heart.png">
+            </div>
+            <div data-delay="500" class="animated"
+                 data-show="bounceInUp" data-hide="zoomOut">
+                <img class="image-down" src="images/img-down.png">
             </div>
         </div>
     </div>
@@ -153,10 +167,10 @@
     <div class="progress-rate"></div>
     <div class="progress-items"></div>
 </div>
-<a href="https://github.com/AlloyTeam/AlloyTouch" target="_blank"
-   style="position: fixed; right: 0; top: 0; z-index: 3;width:140px;height:140px;">
-    <img src="//alloyteam.github.io/github.png" alt="">
-</a>
+<!--<a href="https://github.com/AlloyTeam/AlloyTouch" target="_blank"-->
+<!--style="position: fixed; right: 0; top: 0; z-index: 3;width:140px;height:140px;">-->
+<!--<img src="//alloyteam.github.io/github.png" alt="">-->
+<!--</a>-->
 <script src="js/transform.js"></script>
 <script src="js/alloy_touch.js"></script>
 <script src="js/alloy_touch.full_page.js"></script>
