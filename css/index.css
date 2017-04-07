@@ -113,17 +113,31 @@ a {
     transition: all .5s ease;
 }
 
-.image {
+.image-portrait {
     position: absolute;
     width: auto;
     height: 100%;
 }
 
 @media screen and (min-device-aspect-ratio: 1500/2250) {
-    .image {
+    .image-portrait {
         position: absolute;
         width: 100%;
         height: auto;
+    }
+}
+
+.image-landscape {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-device-aspect-ratio: 1500/2250) {
+    .image-landscape {
+        position: absolute;
+        width: auto;
+        height: 100%;
     }
 }
 
@@ -183,4 +197,18 @@ a {
 .image-down {
     width: 1em;
     height: auto;
+}
+
+.image-two-rows{
+    height: 50%
+}
+
+.image-page-2-1 {
+    position: static;
+    left: 0;
+}
+
+.image-page-2-2 {
+    position: static;
+    float: right;
 }
