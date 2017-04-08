@@ -278,10 +278,8 @@ a {
 }
 
 .invitations {
-    position: absolute;
-    width: 100%;
-    text-align: center;
     bottom: 0;
+    text-align: center;
 }
 
 .invitations h1 {
@@ -290,6 +288,12 @@ a {
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
+}
+
+@media screen and (min-device-width: 320px) {
+    .invitations h1 {
+        font-size: 1.2em;
+    }
 }
 
 .invitations p {
