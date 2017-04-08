@@ -18,23 +18,26 @@
              data-show="fadeIn" data-hide="fadeOut"
              src="images/img-wedding-1.jpg">
         <div class="footer">
-            <div id="page-1-footer">
-                <img class="image-wedding-invitation animated"
-                     data-show="fadeIn" data-hide="fadeOut"
-                     src="images/img-wedding-invitation.png">
-                <div class="hr-wedding-invitation"></div>
-                <div id="image-dd-xx-heart">
-                    <img id="image-dd-xx-hidden"
-                         src="images/img-dd-xx.png">
-                    <img class="animated" id="image-dd-xx"
+            <div class="animated"
+                 data-delay="500" data-show="flip" data-hide="fadeOut">
+                <div id="page-1-footer">
+                    <img class="image-wedding-invitation animated"
                          data-show="fadeIn" data-hide="fadeOut"
-                         src="images/img-dd-xx.png">
-                    <img class="animated" id="image-heart"
-                         data-show="pulse infinite" data-hide="bounceOut"
-                         src="images/img-heart.png">
+                         src="images/img-wedding-invitation.png">
+                    <div class="hr-wedding-invitation"></div>
+                    <div id="image-dd-xx-heart">
+                        <img id="image-dd-xx-hidden"
+                             src="images/img-dd-xx.png">
+                        <img class="animated" id="image-dd-xx"
+                             data-show="fadeIn" data-hide="fadeOut"
+                             src="images/img-dd-xx.png">
+                        <img class="animated" id="image-heart"
+                             data-show="tada infinite" data-hide="bounceOut"
+                             src="images/img-heart.png">
+                    </div>
                 </div>
             </div>
-            <div data-delay="1000" class="animated"
+            <div data-delay="1200" class="animated"
                  data-show="bounceInUp" data-hide="zoomOut">
                 <img class="image-down" src="images/img-down.png">
             </div>
@@ -122,13 +125,17 @@
              src="images/img-wedding-last.jpg">
         <div class="footer invitations">
             <h1 class="animated"
-                data-show="rubberBand" data-hide="fadeOut">邀请您参加我们的婚礼</h1>
+                data-delay="500" data-show="rubberBand" data-hide="fadeOut">
+                邀请您参加我们的婚礼
+            </h1>
             <p class="animated"
-               data-show="tada" data-hide="fadeOut">在这个重要的时刻<br>
+               data-delay="1000" data-show="rubberBand" data-hide="fadeOut">
+                在这个重要的时刻<br>
                 有您的参与我们倍感幸福
             </p>
             <p class="animated"
-               data-show="bounceInUp" data-hide="fadeOut">2017年5月13日<br>
+               data-delay="1500" data-show="bounceInUp" data-hide="fadeOut">
+                2017年5月13日<br>
                 周六 晚上18点<br>
                 南宁市衡阳路<br>
                 金大陆海鲜酒家<br>
@@ -151,5 +158,8 @@
 <script src="js/alloy_touch.full_page.js"></script>
 <script src="js/progress_bar.js"></script>
 <script src="js/index.js"></script>
+
+<audio src="asset/audio/Shane%20Filan%20-%20Beautiful%20In%20White%20(Demo).mp3" autoplay loop></audio>
+
 </body>
 </html>
