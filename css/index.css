@@ -1,0 +1,359 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    font-size: 24px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section .title {
+    line-height: 60px;
+    font-size: 24px;
+}
+
+#full-page {
+    width: 100%;
+    height: 100%;
+}
+
+#fullpage {
+    visibility: hidden;
+}
+
+.site__header {
+    /*-webkit-animation: bounceInUp 1s;*/
+}
+
+.powered {
+    font-size: 20px;
+    color: #454545;
+    margin-top: 20px;
+}
+
+.section-main {
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#demo0 {
+    width: 160px;
+    overflow: hidden;
+    border: 1px solid rgb(204, 204, 204);
+    text-indent: 10px;
+    margin: 0 auto;
+}
+
+#demo0 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+#demo0 li {
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+#demo1 {
+    height: 210px;
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.progress {
+    width: 100%;
+    font-size: 0;
+    white-space: nowrap;
+    position: fixed;
+    bottom: 0;
+    height: 4px;
+    background-color: #CCCCCC;
+    display: none;
+}
+
+.progress-items {
+    width: 100%;
+    z-index: 2;
+    height: 4px;
+    position: absolute;
+}
+
+.progress-rate {
+    width: 0;
+    z-index: 1;
+    position: absolute;
+    height: 4px;
+    background-color: #00ABEB;
+    transition: all .5s ease;
+}
+
+.image-portrait {
+    position: absolute;
+    width: auto;
+    height: 100%;
+}
+
+@media screen and (min-aspect-ratio: 1000/1500) {
+    .image-portrait {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.image-landscape {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-aspect-ratio: 1500/1000) {
+    .image-landscape {
+        position: absolute;
+        width: auto;
+        height: 100%;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+}
+
+.image-page-1 {
+    animation-duration: 5s;
+    left: 0;
+}
+
+.image-wedding-invitation {
+    width: 85%;
+    height: auto;
+}
+
+.hr-wedding-invitation {
+    border-bottom: solid 1px white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#image-dd-xx-heart {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+#image-dd-xx-hidden {
+    visibility: hidden;
+    width: 80%;
+    height: auto;
+}
+
+#image-dd-xx {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: auto;
+    left: 19%;
+    margin-top: 3%;
+}
+
+#image-heart {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    left: -2%;
+}
+
+.image-down {
+    width: 1em;
+    height: auto;
+}
+
+.image-two-rows {
+    height: 50%
+}
+
+.image-page-2-1 {
+    animation-duration: 3s;
+    position: static;
+}
+
+.image-page-2-2 {
+    animation-duration: 3s;
+    position: static;
+    float: right;
+}
+
+.image-page-3-1 {
+    animation-duration: 2s;
+    position: static;
+}
+
+@media screen and (max-aspect-ratio: 650/1000) {
+    .image-page-3-1 {
+        margin-left: -15%;
+    }
+}
+
+@media screen and (max-aspect-ratio: 550/1000) {
+    .image-page-3-1 {
+        margin-left: -30%;
+    }
+}
+
+.image-page-3-2 {
+    animation-duration: 2s;
+    position: static;
+}
+
+@media screen and (max-aspect-ratio: 650/1000) {
+    .image-page-3-2 {
+        margin-left: -15%;
+    }
+}
+
+@media screen and (max-aspect-ratio: 550/1000) {
+    .image-page-3-2 {
+        margin-left: -30%;
+    }
+}
+
+.image-page-4-1 {
+    animation-duration: 2s;
+    position: static;
+    float: right;
+}
+
+.image-page-4-2 {
+    animation-duration: 2s;
+    position: static;
+}
+
+.image-page-5 {
+    animation-duration: 3s;
+    left: 0;
+}
+
+@media screen and (max-aspect-ratio: 1125/1000) {
+    .image-page-5 {
+        left: -25%;
+    }
+}
+
+@media screen and (max-aspect-ratio: 750/1000) {
+    .image-page-5 {
+        left: -50%;
+    }
+}
+
+.image-page-6 {
+    animation-duration: 3s;
+    left: 0;
+}
+
+@media screen and (max-aspect-ratio: 900/1500) {
+    .image-page-6 {
+        left: -10%;
+    }
+}
+
+@media screen and (max-aspect-ratio: 800/1500) {
+    .image-page-6 {
+        left: -20%;
+    }
+}
+
+.image-page-7 {
+    animation-duration: 5s;
+    left: 0;
+}
+
+@media screen and (max-aspect-ratio: 900/1500) {
+    .image-page-7 {
+        left: -10%;
+    }
+}
+
+@media screen and (max-aspect-ratio: 800/1500) {
+    .image-page-7 {
+        left: -20%;
+    }
+}
+
+.invitations {
+    bottom: 0;
+    text-align: center;
+}
+
+.invitations h1 {
+    color: white;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.invitations p {
+    color: white;
+    line-height: 45px;
+    font-size: 1.5em;
+}
+
+#music {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+}
+
+#music img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
