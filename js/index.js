@@ -35,7 +35,8 @@ document.addEventListener('WeixinJSBridgeReady', function () {
 function insertCSS (selector, rule) {
   if (document.styleSheets && document.styleSheets.length) {
     try {
-      addCSSRule(document.styleSheets[0], selector, rule, 288)
+      addCSSRule(document.styleSheets[document.styleSheets.length - 1],
+        selector, rule, 0)
     } catch (ex) {
       console.error(ex.message, rule)
     }

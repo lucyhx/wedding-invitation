@@ -12,6 +12,7 @@ module.exports = function (grunt) {
           'js/alloy_touch.js',
           'js/alloy_touch.full_page.js',
           'js/progress_bar.js',
+          'js/amap.js',
           'js/index.js',
           'js/snow.js',
         ],
@@ -34,6 +35,7 @@ module.exports = function (grunt) {
         files: {
           'dist/css/index.css': [
             'css/animate.min.css',
+            'css/amap.css',
             'css/index.css',
           ]
         }
